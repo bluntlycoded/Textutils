@@ -1,16 +1,35 @@
 .App {
   text-align: center;
+  
+
 }
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.boxer{
+  align-self: center;
+ width: 500px;
+ margin-left: 520px;
+ border-style: solid;
+ border-color: black;
+ border-radius: 10px;
+}
+.gp{
+  margin-left: 10px;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.padding{
+  padding: 5px;
+  margin-left: 10px;
 }
 
 .App-header {
