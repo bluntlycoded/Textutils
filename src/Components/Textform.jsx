@@ -60,15 +60,20 @@ export default function Textform(props) {
 <br />
 <br />
 <h1 style={styles} class="text-5xl text-gray-900 dark:text-black gp">Summary of Your Usage in this sessions</h1>
-<label htmlFor="wordcount" class="text-2xl text-gray-900 dark:text-white">No.of Words:{WordCount}</label>
+<div className='mnc'>
+<label htmlFor="wordcount" class="text-2xl text-gray-900 dark:text-black">No.of Words:{WordCount}</label>
 <br />
-<label htmlFor="Charcount">No.of Char:{CharCount}</label>
+<label htmlFor="Charcount" class="text-2xl text-gray-900 dark:text-black">No.of Char:{CharCount}</label>
 <br />
-<label htmlFor="wordcount">Reading Time:{readingTime} Seconds</label>
-<h1>Summary of the document</h1>
+<label htmlFor="wordcount" class="text-2xl text-gray-900 dark:text-black">Reading Time:{readingTime} Seconds</label>
+</div>
+<h1 style={styles} class="text-5xl text-gray-900 dark:text-black gp">Summary of the document</h1>
+<br />
 <textarea className="form-control boxer" id="myBox" rows="8" value={text}></textarea>
   
-</div>		
+</div>	
+<hr />	
+<h3>Copyright</h3>
     </div>
   )
 }

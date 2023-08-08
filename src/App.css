@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   
-
+background-color: #F5EFE7;
 }
 
 
@@ -16,10 +16,24 @@
  border-style: solid;
  border-color: black;
  border-radius: 10px;
+ background-color: #D8C4B6;
+ color: black;
+}
+
+header{
+  background-color: #213555;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  color: white;
 }
 .gp{
   margin-left: 10px;
   text-align: center;
+  color: #4F709C;
 }
 
 @media (prefers-reduced-motion: no-preference) {
